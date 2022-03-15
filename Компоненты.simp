@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="3.0">
+  <meta>
+    <name>Project</name>
+    <authors />
+    <description />
+  </meta>
+  <items>
+    <item id="di501096894116480327" cid="CPT001" type="component" name="NX" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di254833342851758098" cid="CPT002" type="component" name="ANSYS" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di460888490397366892" cid="PORT001" type="port" name="Port1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di142585117680588805" cid="CPT003" type="component" name="Файл модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di300648345276109250" cid="RIF001" type="uml-required-interface" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di547363531318190954" cid="IFC001" type="uml-interface" name="Сохранение файла модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di955723444331253414" cid="RIF002" type="uml-required-interface" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di187376718784162298" cid="RIF003" type="uml-required-interface" name="Сохранение" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di797170627334383545" cid="REL001" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di547363531318190954" to="di142585117680588805">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di127970106909994036" cid="CON001" type="containment" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di817272103244157325" cid="IFC002" type="uml-interface" name="Открытие файла модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di162719094314786658" cid="RIF004" type="uml-required-interface" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di816455541150064430" cid="REL002" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="di254833342851758098">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di807681125322735929" cid="REL003" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="di254833342851758098">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di198268394401460137" cid="RIF005" type="uml-required-interface" name="Передача (открытие)" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di688084767385739161" cid="REL004" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="di254833342851758098">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di733295501642248056" cid="REL005" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="di254833342851758098">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di377167480958778497" cid="REL006" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di817272103244157325" to="di254833342851758098">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di225576166299224774" cid="CON002" type="containment" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di367794036390202437" cid="CPT001" type="component" name="Проведение тестов на модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di557552296840394562" cid="CPT002" type="component" name="Документация" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di953349454523983446" cid="IFC001" type="uml-interface" name="Результаты тестирования" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di390034474301723466" cid="IFC002" type="uml-interface" name="Результаты тестирования и " style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di806298036111819548" cid="RIF001" type="uml-required-interface" name="Тесты" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di418561690134304364" cid="REL001" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di953349454523983446" to="di367794036390202437">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di871903792965413043" cid="RIF002" type="uml-required-interface" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di255610814567881289" cid="REL002" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di390034474301723466" to="di557552296840394562">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di951041500633055791" cid="REL003" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di953349454523983446" to="di557552296840394562">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di755172148191015424" cid="REL001" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di547363531318190954" to="di142585117680588805">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di770010250400506993" cid="CON001" type="containment" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di794700375594306706" cid="RIF001" type="uml-required-interface" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di355151269440134025" cid="IFC001" type="uml-interface" name="Interface1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di117732589351154319" cid="REL002" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di367794036390202437" to="di355151269440134025">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di313102901406150037" cid="RIF002" type="uml-required-interface" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di400813637574002397" cid="REL003" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di142585117680588805" to="di547363531318190954">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di602057045296688456" cid="RIF003" type="uml-required-interface" name="Сохранение" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di715154334286374717" cid="REL004" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di254833342851758098" to="di817272103244157325">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di480636974357033171" cid="RIF004" type="uml-required-interface" name="Передача файла .IGES" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di773134661999041952" cid="REL005" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di557552296840394562" to="di953349454523983446">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di670150440156550585" cid="RIF005" type="uml-required-interface" name="Тесты" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di628744190427913211" cid="CL001" type="collaboration" name="Collaboration1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di278418811163719972" cid="IFC002" type="uml-interface" name="Interface2" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di398205758815189467" cid="IFC001" type="uml-interface" name="Результаты тестирования" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di559893784923240457" cid="REL006" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di557552296840394562" to="di953349454523983446">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di551119368195911957" cid="RIF006" type="uml-required-interface" name="Тест" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di778321097983850100" cid="CMT001" type="comment" name="Comment 1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di468220372750982331" cid="CMT002" type="comment" name="Comment" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di301709701120876857" cid="CMT003" type="comment" name="Comment" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <comment>Нужно ли? </comment>
+    </item>
+  </items>
+  <models>
+    <model id="p918297257773213599" name="Model 1">
+      <diagram type="uml-component" id="p153572064727979434" name="Diagram1">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>11/09/2021 14:18:52</creation-date>
+          <change-date>11/16/2021 17:01:46</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di501096894116480327" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="19" ay="16" awidth="150" aheight="170" x="19" y="16" width="0" height="0" />
+          </item>
+          <item id="di254833342851758098" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="15" ay="314" awidth="150" aheight="170" x="15" y="314" width="0" height="170" />
+          </item>
+          <item id="di142585117680588805" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="609" ay="16" awidth="150" aheight="170" x="609" y="16" width="0" height="170" />
+          </item>
+          <item id="di547363531318190954" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="323" ay="95" awidth="117" aheight="63" x="323" y="95" width="117" height="63" />
+          </item>
+          <item id="di817272103244157325" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="315" ay="237" awidth="127" aheight="65" x="315" y="237" width="127" height="65" />
+          </item>
+          <item id="di557552296840394562" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="605" ay="314" awidth="150" aheight="170" x="605" y="314" width="0" height="170" />
+          </item>
+          <item id="di953349454523983446" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="320" ay="393" awidth="134.0103" aheight="62.80488" x="320" y="393" width="134.0103" height="62.80488" />
+          </item>
+          <item id="di400813637574002397" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="609" y1="107" x2="394.3345" y2="107.7876">
+              <points>
+                <point x="609" y="107" />
+                <point x="394.3345" y="107.7876" />
+              </points>
+            </layout>
+            <relation from="di142585117680588805" to="di547363531318190954" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di602057045296688456" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="169" y1="107" x2="368.6655" y2="107.7842">
+              <points>
+                <point x="169" y="107" />
+                <point x="368.6655" y="107.7842" />
+              </points>
+            </layout>
+            <relation from="di501096894116480327" to="di547363531318190954" />
+          </item>
+          <item id="di715154334286374717" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="165" y1="365" x2="366.3" y2="257.3583">
+              <points>
+                <point x="165" y="365" />
+                <point x="366.3" y="257.3583" />
+              </points>
+            </layout>
+            <relation from="di254833342851758098" to="di817272103244157325" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di480636974357033171" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="609" y1="142" x2="391.0102" y2="244.9277">
+              <points>
+                <point x="609" y="142" />
+                <point x="391.0102" y="244.9277" />
+              </points>
+            </layout>
+            <relation from="di142585117680588805" to="di817272103244157325" />
+          </item>
+          <item id="di559893784923240457" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="605" y1="405" x2="399.7421" y2="405.694">
+              <points>
+                <point x="605" y="405" />
+                <point x="399.7421" y="405.694" />
+              </points>
+            </layout>
+            <relation from="di557552296840394562" to="di953349454523983446" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di551119368195911957" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="165" y1="405" x2="374.2681" y2="405.6948">
+              <points>
+                <point x="165" y="405" />
+                <point x="374.2681" y="405.6948" />
+              </points>
+            </layout>
+            <relation from="di254833342851758098" to="di953349454523983446" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

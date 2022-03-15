@@ -1,0 +1,2238 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="3.0">
+  <meta>
+    <name>Project</name>
+    <authors />
+    <description />
+  </meta>
+  <items>
+    <item id="di357187860993879368" cid="AC001" type="actor" name="3D-модельщик (Проектировщик)" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di484959711303442669" cid="UC001" type="use-case" name="Маркетинговые исследования" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di820828168887089793" cid="UC002" type="use-case" name="Сборка и анализ" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di238886748853193168" cid="UC003" type="use-case" name="Планирование и технологическая проработка процессов изготовления" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di757181584633416980" cid="UC004" type="use-case" name="Создание электронного макета изделия" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di344026183209643823" cid="UC005" type="use-case" name="Продажа" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di510918032468694752" cid="UC006" type="use-case" name="Послепродажная техническая поддержка (послепродажное обслуживание)" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di824300225922651969" cid="UC007" type="use-case" name="Формирование ТЗ" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di895534178506775505" cid="AC002" type="actor" name="Планировщики" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di331212046375949902" cid="UC008" type="use-case" name="Проведение анализа программного обеспечения Nx, Ansys и существующих САПР" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di240981169577404838" cid="UC008" type="use-case" name="Изучение принципов работы программного обеспечения Nx и Ansys" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di288086071184986272" cid="UC008" type="use-case" name="Разработка календарного плана" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di482449232331416368" cid="UC008" type="use-case" name="Разработка требований к организации проекта" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di206629610213769709" cid="UC008" type="use-case" name="Разработка технического задания(ТЗ)" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di400992770360199805" cid="UC008" type="use-case" name="Разработка устава проекта" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di278876271792510331" cid="UC009" type="use-case" name="Исследовать предметную область" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di668609744993936145" cid="UC010" type="use-case" name="Подготовка проекта" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di102409694924250041" cid="UC011" type="use-case" name="Интеграция платформ Nx и Ansys" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di224210944492850783" cid="UC008" type="use-case" name="Установка и настройка управления модулями Nx и Ansys между собой" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di891925947748883231" cid="UC008" type="use-case" name="Закупка платформ Nx и Ansys и наборов модулей и библиотек" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di761322809799183967" cid="UC012" type="use-case" name="Проверка работоспособности системы" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di976397168822795973" cid="UC008" type="use-case" name="Тестирование платформы на безошибочную работу в разных режимах работы" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di540563550341984057" cid="UC008" type="use-case" name="Проверка полученных результатов тестирования модели со стандартом" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di652115796122424853" cid="UC008" type="use-case" name="Разработка технического задания" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di134137627895855045" cid="UC008" type="use-case" name="Реализация тестовой модели запчасти" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di746418568386864496" cid="AC003" type="actor" name="Начальник отдела" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di475850385602874129" cid="REL001" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di895534178506775505" to="di240981169577404838">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di780339058330938305" cid="REL002" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di895534178506775505" to="di278876271792510331">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di286734347744514206" cid="INC001" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di713720699569213311" cid="INC002" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di220393284457887997" cid="REL003" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di895534178506775505" to="di668609744993936145">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di678759419238170051" cid="REL004" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di746418568386864496" to="di668609744993936145">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di439637159612590534" cid="REL005" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di895534178506775505" to="di102409694924250041">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di526079698808990522" cid="INC003" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di233805102605878540" cid="INC004" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di786381041501323462" cid="INC005" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di145658982872878741" cid="INC006" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di419513980491038843" cid="INC007" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di259328040305983185" cid="INC008" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di463543223436721425" cid="INC009" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di430389405696124645" cid="REL006" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di895534178506775505" to="di761322809799183967">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di612603492766450693" cid="INC010" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di970886726763879538" cid="INC011" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di974865654180497342" cid="INC012" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di404496088879720706" cid="AC004" type="actor" name="Actor4" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di584141280382717941" cid="AC003" type="actor" name="Планировщики" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di954170707615527468" cid="AC003" type="actor" name="Руководители производства" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di962525991289920566" cid="AC005" type="actor" name="3D-модельщики (Проектировщики)" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di457506588779416554" cid="AC006" type="actor" name="Руководитель проекта " style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di717993068386656345" cid="REL007" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di962525991289920566" to="di102409694924250041">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di950616259964925353" cid="REL008" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di962525991289920566" to="di761322809799183967">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di871129769206275635" cid="UC013" type="use-case" name="UseCase13" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di332314324363342640" cid="UC010" type="use-case" name="Заключение договора об оказании услуг" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di743401218133782569" cid="REL009" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di457506588779416554" to="di332314324363342640">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di775858608246345160" cid="REL010" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di954170707615527468" to="di332314324363342640">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di413977626461243967" cid="REL011" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di447539672555644399" cid="INC013" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di632861919912293371" cid="UC010" type="use-case" name="Требование и сроки" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di754123903761900001" cid="REL012" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di895534178506775505" to="di632861919912293371">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di152548892107801110" cid="REL013" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di632861919912293371" to="di962525991289920566">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di583514171249118017" cid="INC014" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di505149620252012342" cid="INC015" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di579948924185869742" cid="UC014" type="use-case" name="UseCase14" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di263975103285311633" cid="UC010" type="use-case" name="Формирование проблемы" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di929452290456404211" cid="REL014" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di457506588779416554" to="di263975103285311633">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di842122733817497306" cid="REL015" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di954170707615527468" to="di263975103285311633">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di861826779786113594" cid="REL016" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di263975103285311633" to="di895534178506775505">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di278878208843651347" cid="REL017" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di263975103285311633" to="di746418568386864496">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di685725130234586725" cid="INC016" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di708092838595501769" cid="UC004" type="use-case" name="Детальная проработка" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di623664602216233025" cid="UC004" type="use-case" name="Изготовление" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di818027762362663121" cid="UC004" type="use-case" name="Концептуальная проработка изделия" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di366541875158637031" cid="UC004" type="use-case" name="Инженерный анализ" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di560905035305067127" cid="UC004" type="use-case" name="Компоновка и декомпозиция изделия" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di285085414187420468" cid="UC004" type="use-case" name="Тестирование" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di605038162404596380" cid="UC004" type="use-case" name="Проектирование" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di652143064912177813" cid="UC004" type="use-case" name="Открытие Siemens NX" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di523581701433379817" cid="UC004" type="use-case" name="Открытие САПР ANSYS" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di167288458676526293" cid="REL001" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di357187860993879368" to="di652143064912177813">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di848425760150769212" cid="REL002" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="di357187860993879368" to="di523581701433379817">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di449840933406540833" cid="UC004" type="use-case" name="Выполнение концептуального проектирования" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di321279569827742836" cid="UC004" type="use-case" name="Электронный макет изделия" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di515642730974172932" cid="UC004" type="use-case" name="Подготовка документациии" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di964156841770146842" cid="UC004" type="use-case" name="Выполнение прикладных расчетов" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di688337220652500182" cid="UC004" type="use-case" name="Промышленный дизайн" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di707034115712550847" cid="UC004" type="use-case" name="Прикладные расчеты" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di255548227508524757" cid="UC004" type="use-case" name="Моделирование деталей" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di126986864929726760" cid="UC004" type="use-case" name="Моделирование сборок" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di898425500450928763" cid="UC004" type="use-case" name="Контроль качества" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di221196669144889628" cid="UC004" type="use-case" name="Проведение изменений" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di443967837738850492" cid="UC004" type="use-case" name="Подготовка документации" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di206565407962082822" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di779852544734709653" cid="INC001" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di325465337371045403" cid="INC002" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di868259708530596201" cid="INC003" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di712227034164419037" cid="INC004" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di226460043745171837" cid="INC005" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di944920680991102066" cid="INC006" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di537638375235019250" cid="INC007" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di914548048944084739" cid="INC008" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di320315718156247448" cid="UC004" type="use-case" name="Осуществление контроля и анализа" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di191754355577449450" cid="UC004" type="use-case" name="Накопление и использование знаний" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di493010208734574697" cid="UC004" type="use-case" name="Проектирование систем" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di687373369881004793" cid="UC004" type="use-case" name="Выполнение специализированных решений" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di411553747763358134" cid="UC004" type="use-case" name="Средства автоматизации" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di430250642823408799" cid="UC004" type="use-case" name="Интеграция с другими системами" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di585015015931648002" cid="INC009" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di742125297554804809" cid="INC010" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di699842933282792271" cid="INC011" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di436847111557505936" cid="INC012" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di798031665714572941" cid="INC013" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di679322325220083088" cid="INC014" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di187611783884731527" cid="INC015" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di826074745945370290" cid="INC016" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di341331156846900749" cid="INC017" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di183474768478065069" cid="INC018" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di400372840504335593" cid="INC019" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di783226065229505445" cid="INC020" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di774381193153762923" cid="INC021" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di511385371428476588" cid="INC022" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di972723281616810822" cid="INC023" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di578194319904674309" cid="INC024" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di403535205726860501" cid="INC025" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di554701935433912946" cid="INC026" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di758917119564651186" cid="INC027" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di600990275847401485" cid="EX001" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di980871725164519156" cid="EX002" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di799332363410449385" cid="EX003" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di489231638177581616" cid="EX004" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di931872654305865185" cid="EX005" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di205884093892280914" cid="EX006" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di974421409253844757" cid="EX007" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di871366732962939368" cid="EX008" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di112751895934097689" cid="EX009" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di878317435787609352" cid="EX010" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di565244934146689403" cid="EX011" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di954907952999701196" cid="EX012" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di597702324259251995" cid="EX013" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di914753752316789747" cid="EX014" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di811699076125884358" cid="EX015" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di373036987314218592" cid="EX016" type="extend" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="extend" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <extend extension-point="" />
+    </item>
+    <item id="di920207716731544684" cid="UC001" type="use-case" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di848793867559108993" cid="UC004" type="use-case" name="Сохранение в другом формате" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di118924983461112383" cid="INC001" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di213341628702960014" cid="UC004" type="use-case" name="Авторизация" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di753615858331818107" cid="INC002" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di192646681237990141" cid="INC003" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di928498063948528715" cid="INC004" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di393661546522213524" cid="INC005" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di898316021715984116" cid="INC006" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di830548673367856882" cid="UC004" type="use-case" name="Создания единой фундаментальной (мультифизической) матрицы взаимодействия полей" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di869069748862582542" cid="UC004" type="use-case" name="Выполнить тест на термоэлектрические типы анализа" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di768916392831315313" cid="UC004" type="use-case" name="Выполнить тест термопрочностный" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di963279553977745409" cid="UC004" type="use-case" name="Выполнить тест пьезоэлектрический" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di834718190498947412" cid="UC004" type="use-case" name="Выполнить тест поддерживая акустический" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di858363209260191556" cid="UC004" type="use-case" name="Анализ взаимодействия конструкции с различными текучими средами или электромагнитными полями" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di845174483551097812" cid="INC007" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di767696949896499051" cid="INC008" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di244606623705564542" cid="INC009" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di270183766341871171" cid="INC010" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di327140691833760748" cid="INC011" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di161326449731689461" cid="INC012" type="include" name="" style-class="" is-abstract="false">
+      <stereotypes>
+        <stereotype name="include" />
+      </stereotypes>
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p979283479810687443" name="Model 1">
+      <diagram type="uml-usecase" id="p586206432671003533" name="UseCaseDiagram 1">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>11/05/2021 14:07:58</creation-date>
+          <change-date>11/19/2021 17:14:40</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di357187860993879368" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="717" ay="41" awidth="135" aheight="171" x="689" y="29" width="135" height="171" />
+          </item>
+          <item id="di820828168887089793" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="414.7305" ay="5.071411" awidth="157.4165" aheight="98" x="386.7305" y="-6.928589" width="172" height="90" />
+          </item>
+          <item id="di757181584633416980" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="214.5835" ay="209.4143" awidth="157.4165" aheight="98" x="214.5835" y="209.4143" width="0" height="0" />
+          </item>
+          <item id="di708092838595501769" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="5.5835" ay="396.4143" awidth="157.4165" aheight="98" x="-22.4165" y="384.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di818027762362663121" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="15.5835" ay="196.4143" awidth="157.4165" aheight="98" x="-12.4165" y="184.4143" width="0" height="0" />
+          </item>
+          <item id="di366541875158637031" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="18.5835" ay="703.4143" awidth="157.4165" aheight="98" x="-9.416504" y="691.4143" width="0" height="0" />
+          </item>
+          <item id="di560905035305067127" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="8.5835" ay="294.4143" awidth="157.4165" aheight="98" x="-19.4165" y="282.4143" width="0" height="0" />
+          </item>
+          <item id="di285085414187420468" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="921.5835" ay="131.4143" awidth="157.4165" aheight="98" x="921.5835" y="131.4143" width="0" height="0" />
+          </item>
+          <item id="di652143064912177813" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="438.5835" ay="349.4143" awidth="157.4165" aheight="98" x="438.5835" y="349.4143" width="0" height="0" />
+          </item>
+          <item id="di523581701433379817" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="919.583" ay="349.4143" awidth="157.4165" aheight="98" x="919.583" y="349.4143" width="0" height="0" />
+          </item>
+          <item id="di167288458676526293" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="717" y1="194" x2="572" y2="363">
+              <points>
+                <point x="717" y="194" />
+                <point x="572" y="363" />
+              </points>
+            </layout>
+            <relation from="di357187860993879368" to="di652143064912177813" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di848425760150769212" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="851" y1="212" x2="949" y2="360">
+              <points>
+                <point x="851" y="212" />
+                <point x="949" y="360" />
+              </points>
+            </layout>
+            <relation from="di357187860993879368" to="di523581701433379817" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di449840933406540833" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="240.5835" ay="522.4143" awidth="157.4165" aheight="98" x="240.5835" y="522.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di515642730974172932" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="238.5835" ay="622.4143" awidth="157.4165" aheight="98" x="238.5835" y="622.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di964156841770146842" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="233.5835" ay="415.4143" awidth="157.4165" aheight="98" x="233.5835" y="415.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di255548227508524757" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="13.5835" ay="600.4143" awidth="157.4165" aheight="98" x="-14.4165" y="588.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di126986864929726760" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="-0.4165001" ay="498.4143" awidth="157.4165" aheight="98" x="-28.4165" y="486.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di898425500450928763" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="87.5835" ay="4.414307" awidth="157.4165" aheight="98" x="87.5835" y="4.414307" width="157.4165" height="0" />
+          </item>
+          <item id="di221196669144889628" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="24.5835" ay="98.41431" awidth="157.4165" aheight="98" x="-3.416504" y="86.41431" width="157.4165" height="0" />
+          </item>
+          <item id="di443967837738850492" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="251.5835" ay="2.414307" awidth="156.4165" aheight="98" x="223.5835" y="-9.585693" width="156.4165" height="0" />
+          </item>
+          <item id="di320315718156247448" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="284.5835" ay="723.4143" awidth="157.4165" aheight="98" x="284.5835" y="723.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di191754355577449450" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="465.5835" ay="720.4143" awidth="157.4165" aheight="98" x="465.5835" y="720.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di493010208734574697" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="548.5835" ay="612.4143" awidth="157.4165" aheight="98" x="548.5835" y="612.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di687373369881004793" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="359.5835" ay="809.4143" awidth="157.4165" aheight="98" x="359.5835" y="809.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di411553747763358134" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="234.5835" ay="312.4143" awidth="157.4165" aheight="98" x="234.5835" y="312.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di430250642823408799" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="696.5835" ay="484.4143" awidth="157.4165" aheight="98" x="696.5835" y="484.4143" width="157.4165" height="0" />
+          </item>
+          <item id="di183474768478065069" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="450" y1="372" x2="360" y2="284">
+              <points>
+                <point x="450" y="372" />
+                <point x="360" y="284" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di757181584633416980" />
+          </item>
+          <item id="di400372840504335593" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="440" y1="389" x2="391" y2="370">
+              <points>
+                <point x="440" y="389" />
+                <point x="391" y="370" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di411553747763358134" />
+          </item>
+          <item id="di783226065229505445" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="442" y1="413" x2="387" y2="449">
+              <points>
+                <point x="442" y="413" />
+                <point x="387" y="449" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di964156841770146842" />
+          </item>
+          <item id="di774381193153762923" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="457" y1="430" x2="378" y2="539">
+              <points>
+                <point x="457" y="430" />
+                <point x="378" y="539" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di449840933406540833" />
+          </item>
+          <item id="di511385371428476588" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="470" y1="438" x2="363" y2="631">
+              <points>
+                <point x="470" y="438" />
+                <point x="363" y="631" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di515642730974172932" />
+          </item>
+          <item id="di972723281616810822" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="486" y1="443" x2="392" y2="727">
+              <points>
+                <point x="486" y="443" />
+                <point x="392" y="727" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di320315718156247448" />
+          </item>
+          <item id="di578194319904674309" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="503" y1="447" x2="450" y2="810">
+              <points>
+                <point x="503" y="447" />
+                <point x="450" y="810" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di687373369881004793" />
+          </item>
+          <item id="di403535205726860501" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="522" y1="447" x2="537" y2="721">
+              <points>
+                <point x="522" y="447" />
+                <point x="537" y="721" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di191754355577449450" />
+          </item>
+          <item id="di554701935433912946" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="547" y1="444" x2="596" y2="616">
+              <points>
+                <point x="547" y="444" />
+                <point x="596" y="616" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di493010208734574697" />
+          </item>
+          <item id="di758917119564651186" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="587" y1="421" x2="706" y2="510">
+              <points>
+                <point x="587" y="421" />
+                <point x="706" y="510" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di430250642823408799" />
+          </item>
+          <item id="di205884093892280914" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="173" y1="248" x2="215" y2="254">
+              <points>
+                <point x="173" y="248" />
+                <point x="215" y="254" />
+              </points>
+            </layout>
+            <relation from="di818027762362663121" to="di757181584633416980" />
+          </item>
+          <item id="di974421409253844757" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="171" y1="172" x2="226" y2="233">
+              <points>
+                <point x="171" y="172" />
+                <point x="226" y="233" />
+              </points>
+            </layout>
+            <relation from="di221196669144889628" to="di757181584633416980" />
+          </item>
+          <item id="di871366732962939368" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="207" y1="95" x2="251" y2="217">
+              <points>
+                <point x="207" y="95" />
+                <point x="251" y="217" />
+              </points>
+            </layout>
+            <relation from="di898425500450928763" to="di757181584633416980" />
+          </item>
+          <item id="di112751895934097689" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="316" y1="100" x2="305" y2="210">
+              <points>
+                <point x="316" y="100" />
+                <point x="305" y="210" />
+              </points>
+            </layout>
+            <relation from="di443967837738850492" to="di757181584633416980" />
+          </item>
+          <item id="di878317435787609352" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="437" y1="89" x2="348" y2="223">
+              <points>
+                <point x="437" y="89" />
+                <point x="348" y="223" />
+              </points>
+            </layout>
+            <relation from="di820828168887089793" to="di757181584633416980" />
+          </item>
+          <item id="di954907952999701196" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="160" y1="324" x2="220" y2="277">
+              <points>
+                <point x="160" y="324" />
+                <point x="220" y="277" />
+              </points>
+            </layout>
+            <relation from="di560905035305067127" to="di757181584633416980" />
+          </item>
+          <item id="di597702324259251995" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="142" y1="412" x2="234" y2="291">
+              <points>
+                <point x="142" y="412" />
+                <point x="234" y="291" />
+              </points>
+            </layout>
+            <relation from="di708092838595501769" to="di757181584633416980" />
+          </item>
+          <item id="di914753752316789747" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="124" y1="508" x2="245" y2="297">
+              <points>
+                <point x="124" y="508" />
+                <point x="245" y="297" />
+              </points>
+            </layout>
+            <relation from="di126986864929726760" to="di757181584633416980" />
+          </item>
+          <item id="di811699076125884358" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="127" y1="606" x2="256" y2="302">
+              <points>
+                <point x="127" y="606" />
+                <point x="256" y="302" />
+              </points>
+            </layout>
+            <relation from="di255548227508524757" to="di757181584633416980" />
+          </item>
+          <item id="di373036987314218592" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="125" y1="707" x2="263" y2="304">
+              <points>
+                <point x="125" y="707" />
+                <point x="263" y="304" />
+              </points>
+            </layout>
+            <relation from="di366541875158637031" to="di757181584633416980" />
+          </item>
+          <item id="di848793867559108993" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="453.5835" ay="150.4143" awidth="157.4165" aheight="98" x="453.5835" y="150.4143" width="0" height="0" />
+          </item>
+          <item id="di118924983461112383" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="522" y1="349" x2="525" y2="248">
+              <points>
+                <point x="522" y="349" />
+                <point x="525" y="248" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di848793867559108993" />
+          </item>
+          <item id="di213341628702960014" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="693.5835" ay="295.4143" awidth="157.4165" aheight="98" x="693.5835" y="295.4143" width="0" height="0" />
+          </item>
+          <item id="di753615858331818107" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="594" y1="388" x2="695" y2="354">
+              <points>
+                <point x="594" y="388" />
+                <point x="695" y="354" />
+              </points>
+            </layout>
+            <relation from="di652143064912177813" to="di213341628702960014" />
+          </item>
+          <item id="di192646681237990141" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="922" y1="387" x2="849" y2="355">
+              <points>
+                <point x="922" y="387" />
+                <point x="849" y="355" />
+              </points>
+            </layout>
+            <relation from="di523581701433379817" to="di213341628702960014" />
+          </item>
+          <item id="di393661546522213524" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="930" y1="423" x2="842" y2="508">
+              <points>
+                <point x="930" y="423" />
+                <point x="842" y="508" />
+              </points>
+            </layout>
+            <relation from="di523581701433379817" to="di430250642823408799" />
+          </item>
+          <item id="di898316021715984116" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="998" y1="349" x2="998" y2="229">
+              <points>
+                <point x="998" y="349" />
+                <point x="998" y="229" />
+              </points>
+            </layout>
+            <relation from="di523581701433379817" to="di285085414187420468" />
+          </item>
+          <item id="di830548673367856882" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1224.957" ay="229.6143" awidth="170.0426" aheight="106" x="1224.957" y="229.6143" width="0" height="0" />
+          </item>
+          <item id="di869069748862582542" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1219.583" ay="473.4143" awidth="157.4165" aheight="98" x="1219.583" y="473.4143" width="0" height="0" />
+          </item>
+          <item id="di768916392831315313" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1237.583" ay="350.4143" awidth="157.4165" aheight="98" x="1237.583" y="350.4143" width="0" height="0" />
+          </item>
+          <item id="di963279553977745409" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1087.583" ay="581.4143" awidth="157.4165" aheight="98" x="1087.583" y="581.4143" width="0" height="0" />
+          </item>
+          <item id="di834718190498947412" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="921.5835" ay="600.4143" awidth="157.4165" aheight="98" x="921.5835" y="600.4143" width="0" height="0" />
+          </item>
+          <item id="di858363209260191556" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1110.583" ay="131.4143" awidth="170.0426" aheight="106" x="1110.583" y="131.4143" width="0" height="0" />
+          </item>
+          <item id="di845174483551097812" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1051" y1="362" x2="1137" y2="223">
+              <points>
+                <point x="1051" y="362" />
+                <point x="1137" y="223" />
+              </points>
+            </layout>
+            <relation from="di523581701433379817" to="di858363209260191556" />
+          </item>
+          <item id="di767696949896499051" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1072" y1="381" x2="1230" y2="301">
+              <points>
+                <point x="1072" y="381" />
+                <point x="1230" y="301" />
+              </points>
+            </layout>
+            <relation from="di523581701433379817" to="di830548673367856882" />
+          </item>
+          <item id="di244606623705564542" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1077" y1="398" x2="1238" y2="399">
+              <points>
+                <point x="1077" y="398" />
+                <point x="1238" y="399" />
+              </points>
+            </layout>
+            <relation from="di523581701433379817" to="di768916392831315313" />
+          </item>
+          <item id="di270183766341871171" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1071" y1="417" x2="1226" y2="503">
+              <points>
+                <point x="1071" y="417" />
+                <point x="1226" y="503" />
+              </points>
+            </layout>
+            <relation from="di523581701433379817" to="di869069748862582542" />
+          </item>
+          <item id="di327140691833760748" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1044" y1="438" x2="1120" y2="591">
+              <points>
+                <point x="1044" y="438" />
+                <point x="1120" y="591" />
+              </points>
+            </layout>
+            <relation from="di523581701433379817" to="di963279553977745409" />
+          </item>
+          <item id="di161326449731689461" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="998" y1="447" x2="998" y2="600">
+              <points>
+                <point x="998" y="447" />
+                <point x="998" y="600" />
+              </points>
+            </layout>
+            <relation from="di523581701433379817" to="di834718190498947412" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-usecase" id="p144637485349851542" name="UseCaseDiagram 2">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>11/05/2021 14:59:34</creation-date>
+          <change-date>11/09/2021 14:02:14</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di895534178506775505" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="407.7073" ay="174.247" awidth="121.4758" aheight="135.1568" x="407.7073" y="174.247" width="110.1831" height="134.4419" />
+          </item>
+          <item id="di331212046375949902" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="826.1403" ay="9.27597" awidth="163.9837" aheight="102" x="826.1403" y="9.27597" width="0" height="0" />
+          </item>
+          <item id="di240981169577404838" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="560.2985" ay="7.276001" awidth="163.9837" aheight="102" x="560.2985" y="7.276001" width="0" height="0" />
+          </item>
+          <item id="di288086071184986272" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="822.3598" ay="786.198" awidth="163.9837" aheight="102" x="822.3598" y="786.198" width="0" height="0" />
+          </item>
+          <item id="di482449232331416368" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="629.2488" ay="781.6" awidth="163.9837" aheight="102" x="629.2488" y="781.6" width="0" height="0" />
+          </item>
+          <item id="di206629610213769709" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="859.6268" ay="625.2122" awidth="163.9837" aheight="102" x="859.6268" y="625.2122" width="0" height="0" />
+          </item>
+          <item id="di400992770360199805" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="480.8823" ay="643.8103" awidth="163.9837" aheight="102" x="480.8823" y="643.8103" width="0" height="0" />
+          </item>
+          <item id="di278876271792510331" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="674.5089" ay="172" awidth="163.9837" aheight="102" x="674.5089" y="172" width="0" height="0" />
+          </item>
+          <item id="di668609744993936145" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="540.9378" ay="437.1978" awidth="163.9837" aheight="102" x="540.9378" y="437.1978" width="0" height="0" />
+          </item>
+          <item id="di102409694924250041" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1130.189" ay="224.3404" awidth="163.9837" aheight="102" x="1130.189" y="224.3404" width="0" height="0" />
+          </item>
+          <item id="di224210944492850783" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1331.412" ay="16.42178" awidth="163.9837" aheight="102" x="872.4116" y="11.42178" width="0" height="0" />
+          </item>
+          <item id="di891925947748883231" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1114.667" ay="14.81415" awidth="163.9837" aheight="102" x="655.6671" y="9.814148" width="0" height="0" />
+          </item>
+          <item id="di761322809799183967" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1077.987" ay="530.5687" awidth="163.9837" aheight="102" x="1077.987" y="530.5687" width="0" height="0" />
+          </item>
+          <item id="di976397168822795973" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1314.587" ay="412.6142" awidth="163.9837" aheight="102" x="1314.587" y="412.6142" width="0" height="0" />
+          </item>
+          <item id="di540563550341984057" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1314.393" ay="550.7728" awidth="163.9837" aheight="102" x="1314.393" y="550.7728" width="0" height="0" />
+          </item>
+          <item id="di134137627895855045" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="1308.957" ay="669.2765" awidth="163.9837" aheight="102" x="1308.957" y="669.2765" width="0" height="0" />
+          </item>
+          <item id="di746418568386864496" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="339.2009" ay="598.6213" awidth="129.1932" aheight="146.2152" x="339.2009" y="598.6213" width="117.1831" height="145.4419" />
+          </item>
+          <item id="di780339058330938305" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="529" y1="237" x2="675" y2="226">
+              <points>
+                <point x="529" y="237" />
+                <point x="675" y="226" />
+              </points>
+            </layout>
+            <relation from="di895534178506775505" to="di278876271792510331" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di286734347744514206" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="-30,-6" x1="710" y1="181" x2="689" y2="100">
+              <points>
+                <point x="710" y="181" />
+                <point x="689" y="100" />
+              </points>
+            </layout>
+            <relation from="di278876271792510331" to="di240981169577404838" />
+          </item>
+          <item id="di713720699569213311" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="812" y1="186" x2="852" y2="97">
+              <points>
+                <point x="812" y="186" />
+                <point x="852" y="97" />
+              </points>
+            </layout>
+            <relation from="di278876271792510331" to="di331212046375949902" />
+          </item>
+          <item id="di220393284457887997" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="510" y1="309" x2="579" y2="445">
+              <points>
+                <point x="510" y="309" />
+                <point x="579" y="445" />
+              </points>
+            </layout>
+            <relation from="di895534178506775505" to="di668609744993936145" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di678759419238170051" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="468" y1="618" x2="560" y2="521">
+              <points>
+                <point x="468" y="618" />
+                <point x="560" y="521" />
+              </points>
+            </layout>
+            <relation from="di746418568386864496" to="di668609744993936145" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di526079698808990522" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1206" y1="225" x2="1202" y2="117">
+              <points>
+                <point x="1206" y="225" />
+                <point x="1202" y="117" />
+              </points>
+            </layout>
+            <relation from="di102409694924250041" to="di891925947748883231" />
+          </item>
+          <item id="di786381041501323462" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1269" y1="238" x2="1356" y2="104">
+              <points>
+                <point x="1269" y="238" />
+                <point x="1356" y="104" />
+              </points>
+            </layout>
+            <relation from="di102409694924250041" to="di224210944492850783" />
+          </item>
+          <item id="di145658982872878741" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="-35,0" x1="600" y1="537" x2="586" y2="646">
+              <points>
+                <point x="600" y="537" />
+                <point x="586" y="646" />
+              </points>
+            </layout>
+            <relation from="di668609744993936145" to="di400992770360199805" />
+          </item>
+          <item id="di419513980491038843" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="28,-12" x1="643" y1="538" x2="689" y2="783">
+              <points>
+                <point x="643" y="538" />
+                <point x="689" y="783" />
+              </points>
+            </layout>
+            <relation from="di668609744993936145" to="di482449232331416368" />
+          </item>
+          <item id="di259328040305983185" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="20,-16" x1="674" y1="528" x2="852" y2="798">
+              <points>
+                <point x="674" y="528" />
+                <point x="852" y="798" />
+              </points>
+            </layout>
+            <relation from="di668609744993936145" to="di288086071184986272" />
+          </item>
+          <item id="di463543223436721425" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="25,-16" x1="694" y1="514" x2="871" y2="650">
+              <points>
+                <point x="694" y="514" />
+                <point x="871" y="650" />
+              </points>
+            </layout>
+            <relation from="di668609744993936145" to="di206629610213769709" />
+          </item>
+          <item id="di612603492766450693" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1230" y1="608" x2="1321" y2="694">
+              <points>
+                <point x="1230" y="608" />
+                <point x="1321" y="694" />
+              </points>
+            </layout>
+            <relation from="di761322809799183967" to="di134137627895855045" />
+          </item>
+          <item id="di970886726763879538" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1242" y1="586" x2="1315" y2="598">
+              <points>
+                <point x="1242" y="586" />
+                <point x="1315" y="598" />
+              </points>
+            </layout>
+            <relation from="di761322809799183967" to="di540563550341984057" />
+          </item>
+          <item id="di974865654180497342" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1233" y1="559" x2="1323" y2="486">
+              <points>
+                <point x="1233" y="559" />
+                <point x="1323" y="486" />
+              </points>
+            </layout>
+            <relation from="di761322809799183967" to="di976397168822795973" />
+          </item>
+          <item id="di954170707615527468" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="21.81689" ay="595.7861" awidth="132.696" aheight="145.9491" x="21.81689" y="595.7861" width="0" height="127.4419" />
+          </item>
+          <item id="di962525991289920566" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="976.3894" ay="336.9223" awidth="144.4262" aheight="146.7763" x="976.3894" y="336.9223" width="131" height="146" />
+          </item>
+          <item id="di457506588779416554" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="38.60749" ay="163.5518" awidth="103.1545" aheight="146.0235" x="38.60749" y="163.5518" width="219.8248" height="407.6496" />
+          </item>
+          <item id="di717993068386656345" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1120" y1="351" x2="1149" y2="308">
+              <points>
+                <point x="1120" y="351" />
+                <point x="1149" y="308" />
+              </points>
+            </layout>
+            <relation from="di962525991289920566" to="di102409694924250041" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di950616259964925353" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="1096" y1="483" x2="1115" y2="539">
+              <points>
+                <point x="1096" y="483" />
+                <point x="1115" y="539" />
+              </points>
+            </layout>
+            <relation from="di962525991289920566" to="di761322809799183967" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di332314324363342640" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="7.937805" ay="413.1978" awidth="163.9837" aheight="102" x="7.937805" y="413.1978" width="0" height="0" />
+          </item>
+          <item id="di743401218133782569" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="90" y1="309" x2="88" y2="413">
+              <points>
+                <point x="90" y="309" />
+                <point x="88" y="413" />
+              </points>
+            </layout>
+            <relation from="di457506588779416554" to="di332314324363342640" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di775858608246345160" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="88" y1="595" x2="88" y2="515">
+              <points>
+                <point x="88" y="595" />
+                <point x="88" y="515" />
+              </points>
+            </layout>
+            <relation from="di954170707615527468" to="di332314324363342640" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di632861919912293371" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="761.9378" ay="323.1978" awidth="163.9837" aheight="102" x="761.9378" y="323.1978" width="0" height="0" />
+          </item>
+          <item id="di754123903761900001" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="529" y1="263" x2="767" y2="357">
+              <points>
+                <point x="529" y="263" />
+                <point x="767" y="357" />
+              </points>
+            </layout>
+            <relation from="di895534178506775505" to="di632861919912293371" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di152548892107801110" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="925" y1="383" x2="976" y2="397">
+              <points>
+                <point x="925" y="383" />
+                <point x="976" y="397" />
+              </points>
+            </layout>
+            <relation from="di632861919912293371" to="di962525991289920566" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di505149620252012342" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="31,29" x1="696" y1="465" x2="771" y2="397">
+              <points>
+                <point x="696" y="465" />
+                <point x="771" y="397" />
+              </points>
+            </layout>
+            <relation from="di668609744993936145" to="di632861919912293371" />
+          </item>
+          <item id="di263975103285311633" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="273.9378" ay="412.1978" awidth="163.9837" aheight="102" x="273.9378" y="412.1978" width="0" height="0" />
+          </item>
+          <item id="di929452290456404211" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="141" y1="280" x2="293" y2="430">
+              <points>
+                <point x="141" y="280" />
+                <point x="293" y="430" />
+              </points>
+            </layout>
+            <relation from="di457506588779416554" to="di263975103285311633" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di842122733817497306" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="154" y1="618" x2="291" y2="494">
+              <points>
+                <point x="154" y="618" />
+                <point x="291" y="494" />
+              </points>
+            </layout>
+            <relation from="di954170707615527468" to="di263975103285311633" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di861826779786113594" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="392" y1="417" x2="434" y2="309">
+              <points>
+                <point x="392" y="417" />
+                <point x="434" y="309" />
+              </points>
+            </layout>
+            <relation from="di263975103285311633" to="di895534178506775505" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di278878208843651347" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="373" y1="513" x2="387" y2="598">
+              <points>
+                <point x="373" y="513" />
+                <point x="387" y="598" />
+              </points>
+            </layout>
+            <relation from="di263975103285311633" to="di746418568386864496" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di685725130234586725" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="-4,-17" x1="172" y1="463" x2="274" y2="463">
+              <points>
+                <point x="172" y="463" />
+                <point x="274" y="463" />
+              </points>
+            </layout>
+            <relation from="di332314324363342640" to="di263975103285311633" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

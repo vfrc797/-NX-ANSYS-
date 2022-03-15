@@ -1,0 +1,1128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="3.0">
+  <meta>
+    <name>Project</name>
+    <authors />
+    <description />
+  </meta>
+  <items>
+    <item id="di411508135623281876" cid="SL001" type="swimlane" name="Swimlane1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di581371760390384987" cid="A001" type="activity" name="Activity1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di701158707141854483" cid="FJ001" type="fork-join" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di303657969921665789" cid="FJ002" type="fork-join" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di896458564848436180" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di317488920322591737" cid="TR001" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di271461624871989945" cid="TR002" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di193984090317391186" cid="SR001" type="signal-receipt" name="SignalReceipt1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di959549630170902848" cid="SS001" type="signal-sending" name="SignalSend1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di587849126125917583" cid="IS001" type="initial-state" name="InitialState1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di694882729633440775" cid="FS001" type="final-state" name="FinalState1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di135562927140010635" cid="A002" type="activity" name="Создание элементов модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di956185771334773461" cid="TR003" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di837667021554756335" cid="A003" type="activity" name="Запуск ANSYS и перенос данных модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di617703983992747531" cid="A004" type="activity" name="Запуск NX" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di229309162111188109" cid="A005" type="activity" name="Авторизация" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di818364719572883658" cid="TR004" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di313971289441999814" cid="TR005" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di320851536918255776" cid="TR006" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di158803929206551654" cid="TR007" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di510206916627724536" cid="CMT002" type="comment" name="Comment" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di517119665828404571" cid="A006" type="activity" name="Тестирование" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di927493880658598276" cid="FJ003" type="fork-join" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di797038348828727741" cid="TR008" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di954339218266357276" cid="A007" type="activity" name="Формирование документации" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di579127672994325720" cid="TR009" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di215978493337772156" cid="TR010" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di292639465798278021" cid="A008" type="activity" name="Activity8" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di955150329460884295" cid="A006" type="activity" name="Результаты тестирования" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di174120714118260897" cid="TR011" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di154677713212531357" cid="FJ004" type="fork-join" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di494334507398323557" cid="TR012" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di259746692220567991" cid="TR013" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di498313435714941360" cid="TR014" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di242197859565910988" cid="A009" type="activity" name="Сохранение модели в формате IGES и прикладной документации" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di810270375674891718" cid="TR015" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di812355133740436984" cid="TR016" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di638159468722115143" cid="IS001" type="initial-state" name="InitialState1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di784021464300144810" cid="FS001" type="final-state" name="FinalState1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di378804256190443951" cid="A002" type="activity" name="Открытие элементов модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di190590867774725034" cid="A003" type="activity" name="Запуск ANSYS" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di867138049247757597" cid="A004" type="activity" name="Запуск NX" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di366733890529477096" cid="A005" type="activity" name="Авторизация" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di938567296425379067" cid="TR004" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di680089333478591750" cid="TR005" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di440062402945616334" cid="TR006" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di995960717563830889" cid="TR007" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di388661607607401789" cid="A006" type="activity" name="Тестирование" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di292531451376375029" cid="FJ003" type="fork-join" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di266998172915307686" cid="TR008" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di331034255107919013" cid="A007" type="activity" name="Формирование документации" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di733980266952513836" cid="TR009" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di464084996629906273" cid="TR010" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di906393131665918557" cid="A006" type="activity" name="Результаты тестирования" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di611046702842067008" cid="TR011" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di713712886321436480" cid="FJ004" type="fork-join" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di963817111645045462" cid="TR012" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di290639339439753343" cid="TR013" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di269332716264891759" cid="TR014" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di545135520703280937" cid="A009" type="activity" name="Сохранение модели, результатов тестирования и прикладной документации" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di754986598514253447" cid="TR015" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di354616052786743472" cid="TR016" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di128900093832106580" cid="IS001" type="initial-state" name="InitialState1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di459042190612541933" cid="FS001" type="final-state" name="FinalState1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di597587803689684583" cid="A002" type="activity" name="Открытие элементов модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di662598290397378468" cid="A003" type="activity" name="Запуск ANSYS и перенос данных модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di308668996200645468" cid="A004" type="activity" name="Запуск NX" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di148379003177233217" cid="A005" type="activity" name="Авторизация" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di868632249750495651" cid="TR004" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di445871477315053394" cid="TR005" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di729321341940014061" cid="TR006" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di456927063244476898" cid="TR007" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di435892305935408901" cid="A006" type="activity" name="Тестирование" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di559242662780820419" cid="FJ003" type="fork-join" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di764562850413869801" cid="TR008" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di174357797444183489" cid="A007" type="activity" name="Формирование документации" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di707171971571106480" cid="TR009" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di368784117191700380" cid="TR010" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di588413758578859247" cid="A006" type="activity" name="Результаты тестирования" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di523087928731055428" cid="TR011" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di921686736199095924" cid="FJ004" type="fork-join" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di135959169805674769" cid="TR012" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di459386288323201391" cid="TR013" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di590598837955197848" cid="TR014" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di484649016630750249" cid="A009" type="activity" name="Сохранение модели, результатов тестирования и прикладной документации" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di797595538432828050" cid="TR015" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di954745444396757602" cid="TR016" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di584185117150923908" cid="A001" type="activity" name="Открытие вкладки ANSYS " style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di904328455182572548" cid="TR001" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di527641872812403858" cid="A002" type="activity" name="и перенос данных модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di487417217781078387" cid="A003" type="activity" name="Экспортирование данных модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di702943210682049870" cid="TR002" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di908143842509575821" cid="A001" type="activity" name="Открытие вкладки ANSYS " style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di759226451585844113" cid="A003" type="activity" name="Запуск ANSYS" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di160333051512935806" cid="A003" type="activity" name="Экспортирование данных модели" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di327280029632658838" cid="TR003" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di255675591645750419" cid="TR004" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di742520189221977262" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di595332386831542619" cid="TR005" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di357843250494148893" cid="TR006" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di922426426687861243" cid="CMT002" type="comment" name="Comment" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di755725166243283042" cid="TR007" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di349901647173125323" cid="TR008" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di319529015126107997" cid="TR009" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di407865724573580523" cid="TR010" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di207699922107874107" cid="TR011" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+  </items>
+  <models>
+    <model id="p971209116745657472" name="Model 1">
+      <diagram type="uml-activity" id="p330841376672293036" name="ActivityDiagram1">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>11/09/2021 14:50:30</creation-date>
+          <change-date>11/16/2021 17:45:06</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di587849126125917583" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="192.3633" ay="6" awidth="25" aheight="25" x="324.3633" y="4" width="0" height="0" />
+          </item>
+          <item id="di694882729633440775" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="194" ay="406" awidth="25" aheight="25" x="193" y="408" width="25" height="25" />
+          </item>
+          <item id="di135562927140010635" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="148.2776" ay="217.2219" awidth="114.1271" aheight="52.17646" x="148.2776" y="217.2219" width="0" height="0" />
+          </item>
+          <item id="di617703983992747531" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="147.1363" ay="135.8266" awidth="114.1271" aheight="52.17646" x="147.1363" y="135.8266" width="0" height="0" />
+          </item>
+          <item id="di229309162111188109" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="149.4188" ay="56.51844" awidth="114.1271" aheight="52.17646" x="149.4188" y="56.51844" width="0" height="0" />
+          </item>
+          <item id="di818364719572883658" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="205" y1="31" x2="205" y2="56">
+              <points>
+                <point x="205" y="31" />
+                <point x="205" y="56" />
+              </points>
+            </layout>
+            <relation from="di587849126125917583" to="di229309162111188109" />
+          </item>
+          <item id="di313971289441999814" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="205" y1="108" x2="204" y2="135">
+              <points>
+                <point x="205" y="108" />
+                <point x="204" y="135" />
+              </points>
+            </layout>
+            <relation from="di229309162111188109" to="di617703983992747531" />
+          </item>
+          <item id="di320851536918255776" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="204" y1="188" x2="204" y2="217">
+              <points>
+                <point x="204" y="188" />
+                <point x="204" y="217" />
+              </points>
+            </layout>
+            <relation from="di617703983992747531" to="di135562927140010635" />
+          </item>
+          <item id="di158803929206551654" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="205" y1="269" x2="205" y2="312">
+              <points>
+                <point x="205" y="269" />
+                <point x="205" y="312" />
+              </points>
+            </layout>
+            <relation from="di135562927140010635" to="di242197859565910988" />
+          </item>
+          <item id="di242197859565910988" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="106" ay="312" awidth="201" aheight="62" x="105" y="314" width="201" height="62" />
+          </item>
+          <item id="di812355133740436984" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="206" y1="374" x2="206" y2="406">
+              <points>
+                <point x="206" y="374" />
+                <point x="206" y="406" />
+              </points>
+            </layout>
+            <relation from="di242197859565910988" to="di694882729633440775" />
+          </item>
+          <item id="di638159468722115143" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="605.3633" ay="10" awidth="25" aheight="25" x="324.3633" y="4" width="0" height="0" />
+          </item>
+          <item id="di784021464300144810" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="609" ay="560" awidth="25" aheight="25" x="624" y="556" width="25" height="25" />
+          </item>
+          <item id="di378804256190443951" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="561.2776" ay="221.2219" awidth="114.1271" aheight="52.17646" x="576.2776" y="217.2219" width="0" height="0" />
+          </item>
+          <item id="di190590867774725034" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="562.2776" ay="391.9654" awidth="114.1271" aheight="52.17646" x="577.2776" y="387.9654" width="0" height="0" />
+          </item>
+          <item id="di867138049247757597" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="560.1363" ay="139.8266" awidth="114.1271" aheight="52.17646" x="575.1363" y="135.8266" width="0" height="0" />
+          </item>
+          <item id="di366733890529477096" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="562.4188" ay="60.51844" awidth="114.1271" aheight="52.17646" x="577.4188" y="56.51844" width="0" height="0" />
+          </item>
+          <item id="di938567296425379067" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="618" y1="35" x2="618" y2="60">
+              <points>
+                <point x="618" y="35" />
+                <point x="618" y="60" />
+              </points>
+            </layout>
+            <relation from="di638159468722115143" to="di366733890529477096" />
+          </item>
+          <item id="di680089333478591750" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="618" y1="112" x2="617" y2="139">
+              <points>
+                <point x="618" y="112" />
+                <point x="617" y="139" />
+              </points>
+            </layout>
+            <relation from="di366733890529477096" to="di867138049247757597" />
+          </item>
+          <item id="di440062402945616334" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="617" y1="192" x2="617" y2="221">
+              <points>
+                <point x="617" y="192" />
+                <point x="617" y="221" />
+              </points>
+            </layout>
+            <relation from="di867138049247757597" to="di378804256190443951" />
+          </item>
+          <item id="di995960717563830889" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="618" y1="273" x2="618" y2="310">
+              <points>
+                <point x="618" y="273" />
+                <point x="618" y="310" />
+              </points>
+            </layout>
+            <relation from="di378804256190443951" to="di584185117150923908" />
+          </item>
+          <item id="di354616052786743472" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="621" y1="525" x2="621" y2="560">
+              <points>
+                <point x="621" y="525" />
+                <point x="621" y="560" />
+              </points>
+            </layout>
+            <relation from="di487417217781078387" to="di784021464300144810" />
+          </item>
+          <item id="di128900093832106580" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="952.3633" ay="7" awidth="25" aheight="25" x="1060.363" y="9" width="0" height="0" />
+          </item>
+          <item id="di459042190612541933" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="956" ay="876" awidth="25" aheight="25" x="327" y="664" width="25" height="25" />
+          </item>
+          <item id="di597587803689684583" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="908.2776" ay="218.2219" awidth="114.1271" aheight="52.17646" x="1016.278" y="220.2219" width="0" height="0" />
+          </item>
+          <item id="di308668996200645468" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="907.1363" ay="136.8266" awidth="114.1271" aheight="52.17646" x="1015.136" y="138.8266" width="0" height="0" />
+          </item>
+          <item id="di148379003177233217" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="908.4188" ay="57.51844" awidth="114.1271" aheight="52.17646" x="1016.419" y="59.51844" width="0" height="0" />
+          </item>
+          <item id="di868632249750495651" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="965" y1="32" x2="965" y2="57">
+              <points>
+                <point x="965" y="32" />
+                <point x="965" y="57" />
+              </points>
+            </layout>
+            <relation from="di128900093832106580" to="di148379003177233217" />
+          </item>
+          <item id="di445871477315053394" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="964" y1="109" x2="964" y2="136">
+              <points>
+                <point x="964" y="109" />
+                <point x="964" y="136" />
+              </points>
+            </layout>
+            <relation from="di148379003177233217" to="di308668996200645468" />
+          </item>
+          <item id="di729321341940014061" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="964" y1="189" x2="964" y2="218">
+              <points>
+                <point x="964" y="189" />
+                <point x="964" y="218" />
+              </points>
+            </layout>
+            <relation from="di308668996200645468" to="di597587803689684583" />
+          </item>
+          <item id="di435892305935408901" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="909" ay="539.8055" awidth="114.1271" aheight="52.17646" x="1017" y="541.8055" width="0" height="52.17646" />
+          </item>
+          <item id="di174357797444183489" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="910.8325" ay="701.7753" awidth="114.1271" aheight="52.17646" x="1018.833" y="703.7753" width="0" height="0" />
+          </item>
+          <item id="di588413758578859247" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="910" ay="621.8055" awidth="114.1271" aheight="52.17646" x="1018" y="623.8055" width="0" height="0" />
+          </item>
+          <item id="di484649016630750249" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="867" ay="785" awidth="201" aheight="62" x="975" y="787" width="201" height="62" />
+          </item>
+          <item id="di954745444396757602" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="968" y1="847" x2="968" y2="876">
+              <points>
+                <point x="968" y="847" />
+                <point x="968" y="876" />
+              </points>
+            </layout>
+            <relation from="di484649016630750249" to="di459042190612541933" />
+          </item>
+          <item id="di584185117150923908" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="562" ay="310" awidth="113" aheight="50" x="577" y="306" width="113" height="0" />
+          </item>
+          <item id="di904328455182572548" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="618" y1="360" x2="618" y2="391">
+              <points>
+                <point x="618" y="360" />
+                <point x="618" y="391" />
+              </points>
+            </layout>
+            <relation from="di584185117150923908" to="di190590867774725034" />
+          </item>
+          <item id="di487417217781078387" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="564.2776" ay="472.9654" awidth="114.1271" aheight="52.17646" x="579.2776" y="468.9654" width="0" height="0" />
+          </item>
+          <item id="di702943210682049870" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="619" y1="444" x2="620" y2="472">
+              <points>
+                <point x="619" y="444" />
+                <point x="620" y="472" />
+              </points>
+            </layout>
+            <relation from="di190590867774725034" to="di487417217781078387" />
+          </item>
+          <item id="di908143842509575821" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="908" ay="293" awidth="113" aheight="50" x="577" y="306" width="113" height="0" />
+          </item>
+          <item id="di759226451585844113" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="908.2776" ay="374.9654" awidth="114.1271" aheight="52.17646" x="577.2776" y="387.9654" width="0" height="0" />
+          </item>
+          <item id="di160333051512935806" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="910.2776" ay="455.9654" awidth="114.1271" aheight="52.17646" x="579.2776" y="468.9654" width="0" height="0" />
+          </item>
+          <item id="di327280029632658838" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="964" y1="270" x2="964" y2="293">
+              <points>
+                <point x="964" y="270" />
+                <point x="964" y="293" />
+              </points>
+            </layout>
+            <relation from="di597587803689684583" to="di908143842509575821" />
+          </item>
+          <item id="di255675591645750419" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="964" y1="343" x2="964" y2="374">
+              <points>
+                <point x="964" y="343" />
+                <point x="964" y="374" />
+              </points>
+            </layout>
+            <relation from="di908143842509575821" to="di759226451585844113" />
+          </item>
+          <item id="di357843250494148893" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="965" y1="427" x2="966" y2="455">
+              <points>
+                <point x="965" y="427" />
+                <point x="966" y="455" />
+              </points>
+            </layout>
+            <relation from="di759226451585844113" to="di160333051512935806" />
+          </item>
+          <item id="di349901647173125323" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="966" y1="508" x2="966" y2="539">
+              <points>
+                <point x="966" y="508" />
+                <point x="966" y="539" />
+              </points>
+            </layout>
+            <relation from="di160333051512935806" to="di435892305935408901" />
+          </item>
+          <item id="di319529015126107997" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="967" y1="673" x2="967" y2="701">
+              <points>
+                <point x="967" y="673" />
+                <point x="967" y="701" />
+              </points>
+            </layout>
+            <relation from="di588413758578859247" to="di174357797444183489" />
+          </item>
+          <item id="di407865724573580523" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="966" y1="591" x2="966" y2="621">
+              <points>
+                <point x="966" y="591" />
+                <point x="966" y="621" />
+              </points>
+            </layout>
+            <relation from="di435892305935408901" to="di588413758578859247" />
+          </item>
+          <item id="di207699922107874107" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="968" y1="753" x2="968" y2="785">
+              <points>
+                <point x="968" y="753" />
+                <point x="968" y="785" />
+              </points>
+            </layout>
+            <relation from="di174357797444183489" to="di484649016630750249" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
